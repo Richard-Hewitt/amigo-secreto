@@ -1,4 +1,4 @@
-🎟️ Proyecto de Sorteo de Nombres Aleatorio
+🎟️ Proyecto de Sorteo de Nombres Aleatorio.
 Este es un proyecto web simple y funcional diseñado para realizar un sorteo aleatorio de nombres. Permite a los usuarios agregar una lista de participantes y, con un solo clic, seleccionar a uno de ellos al azar, lo que lo hace ideal para rifas, juegos o la selección aleatoria de personas en un grupo.
 
 🚀 Características Principales
