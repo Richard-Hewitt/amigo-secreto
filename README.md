@@ -28,4 +28,4 @@ JavaScript: El corazón del proyecto, donde se implementó toda la lógica de la
 ### 📬 Contacto
 Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto.
 
-Autor: [Richard Hewitt]
+Autor: Richard Hewitt
