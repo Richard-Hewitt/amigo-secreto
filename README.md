@@ -19,11 +19,11 @@ CSS: Utilizado para dar estilo a la interfaz, haciéndola intuitiva y agradable 
 JavaScript: El corazón del proyecto, donde se implementó toda la lógica de las funciones descritas para manejar la entrada del usuario, la gestión del array y la lógica del sorteo.
 
 ## 💻 Cómo Usar
-Ingresa un nombre: Escribe el nombre de un participante en el campo de texto.
+1.  **Ingresa un nombre**: Escribe el nombre de un participante en el campo de texto.
 
-Añade a la lista: Haz clic en el botón "Añadir". El nombre aparecerá en la lista de participantes debajo.
+2.  **Añade a la lista**: Haz clic en el botón "Añadir". El nombre aparecerá en la lista de participantes debajo.
 
-Realiza el sorteo: Una vez que hayas agregado a todos los participantes, haz clic en el botón "Sortear amigo". El nombre del ganador se mostrará en pantalla.
+3.  **Realiza el sorteo**: Una vez que hayas agregado a todos los participantes, haz clic en el botón "Sortear amigo". El nombre del ganador se mostrará en pantalla.
 
 ### 📬 Contacto
 Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto.
