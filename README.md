@@ -4,12 +4,12 @@ Este es un proyecto web simple pero útil diseñado para realizar un sorteo alea
 ## 🚀 Características Principales
 El proyecto se basa en un conjunto de funciones JavaScript que trabajan juntas para ofrecer una experiencia fluida y funcional:
 
-agregarAmigo(): Esta función es la primera en ejecutarse. Captura el nombre ingresado por el usuario, lo valida para asegurarse de que el campo no esté vacío y, si es válido, lo añade a un array de amigos. Al final, limpia el campo de texto y llama a otra función para actualizar la lista en pantalla.
+  agregarAmigo(): Esta función es la primera en ejecutarse. Captura el nombre ingresado por el usuario, lo valida para asegurarse de que el campo no esté vacío y, si es válido, lo añade a un array de amigos. Al final, limpia el campo de texto y llama a otra función para actualizar la lista en pantalla.
 
-mostrarAmigosEnPantalla(): Se encarga de la visualización de la lista de nombres. Recorre el array de amigos y, por cada nombre, crea un nuevo elemento de lista, que se añade al HTML.
+  mostrarAmigosEnPantalla(): Se encarga de la visualización de la lista de nombres. Recorre el array de amigos y, por cada nombre, crea un nuevo elemento de lista, que se añade al HTML.
 Es fundamental que primero limpie el contenido de la lista para evitar nombres duplicados.
 
-sortearAmigo(): Esta es la función principal del sorteo. Primero, valida que la lista no esté vacía. Luego, utiliza las funciones de JavaScript Math.random() y Math.floor() para generar un índice aleatorio y seleccionar un único nombre del array. Finalmente, muestra el nombre sorteado en la interfaz, resaltándolo con un mensaje claro.
+  sortearAmigo(): Esta es la función principal del sorteo. Primero, valida que la lista no esté vacía. Luego, utiliza las funciones de JavaScript Math.random() y Math.floor() para generar un índice aleatorio y seleccionar un único nombre del array. Finalmente, muestra el nombre sorteado en la interfaz, resaltándolo con un mensaje claro.
 
 ## 🛠️ Tecnologías Utilizadas
 HTML: Proporciona la estructura fundamental de la página web.
