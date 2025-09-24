@@ -1,4 +1,4 @@
-# 🎟️ Proyecto Sorteo Aleatorio de Nombres
+# 🎟️ Proyecto Sorteo Amigo Secreto
 Este es un proyecto web simple pero útil diseñado para realizar un sorteo aleatorio de nombres. La aplicación permite a los usuarios añadir participantes a una lista y, con un solo clic, seleccionar a uno de ellos al azar, lo que la hace ideal para rifas, juegos o cualquier situación en la que necesites elegir a una persona de un grupo de forma imparcial.
 
 ## 🚀 Características Principales
@@ -28,4 +28,4 @@ Realiza el sorteo: Una vez que hayas agregado a todos los participantes, haz cli
 ### 📬 Contacto
 Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto.
 
-Autor: [Tu Nombre de Usuario de GitHub]
+Autor: [Richard Hewitt]
