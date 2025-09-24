@@ -1,38 +1,30 @@
-#🎟️ Proyecto de Sorteo de Nombres Aleatorio
-Este es un proyecto web simple y funcional diseñado para realizar un sorteo aleatorio de nombres. Permite a los usuarios agregar una lista de participantes y, con un solo clic, seleccionar a uno de ellos al azar, lo que lo hace ideal para rifas, juegos o la selección aleatoria de personas en un grupo.
+🎟️ Proyecto Sorteo Aleatorio de Nombres
+Este es un proyecto web simple pero útil diseñado para realizar un sorteo aleatorio de nombres. La aplicación permite a los usuarios añadir participantes a una lista y, con un solo clic, seleccionar a uno de ellos al azar, lo que la hace ideal para rifas, juegos o cualquier situación en la que necesites elegir a una persona de un grupo de forma imparcial.
 
-##🚀 Características Principales
-Agregar Amigos: Una función intuitiva que permite a los usuarios ingresar nombres en un campo de texto y añadirlos a una lista. Se incluye una validación de entrada para asegurar que el campo no esté vacío.
+🚀 Características Principales
+El proyecto se basa en un conjunto de funciones JavaScript que trabajan juntas para ofrecer una experiencia fluida y funcional:
 
-Visualización de la Lista: La aplicación muestra de forma dinámica la lista de participantes a medida que se añaden los nombres.
+agregarAmigo(): Esta función es la primera en ejecutarse. Captura el nombre ingresado por el usuario, lo valida para asegurarse de que el campo no esté vacío y, si es válido, lo añade a un array de amigos. Al final, limpia el campo de texto y llama a otra función para actualizar la lista en pantalla.
 
-Sorteo Aleatorio: Al hacer clic en el botón de sortear, el programa selecciona un nombre único de la lista de manera completamente aleatoria. El resultado se muestra claramente en la pantalla.
+mostrarAmigosEnPantalla(): Se encarga de la visualización de la lista de nombres. Recorre el array de amigos y, por cada nombre, crea un nuevo elemento de lista (<li>) que se añade al HTML. Es fundamental que primero limpie el contenido de la lista para evitar nombres duplicados.
 
-##🛠️ Tecnologías Utilizadas
-Este proyecto fue desarrollado con un enfoque en la lógica de programación y la manipulación del DOM, utilizando las siguientes tecnologías web fundamentales:
+sortearAmigo(): Esta es la función principal del sorteo. Primero, valida que la lista no esté vacía. Luego, utiliza las funciones de JavaScript Math.random() y Math.floor() para generar un índice aleatorio y seleccionar un único nombre del array. Finalmente, muestra el nombre sorteado en la interfaz, resaltándolo con un mensaje claro.
 
-HTML: Proporciona la estructura básica de la página web, incluyendo el formulario de entrada, la lista de participantes y el botón de sorteo.
+🛠️ Tecnologías Utilizadas
+HTML: Proporciona la estructura fundamental de la página web.
 
-CSS: Se utiliza para dar estilo a la interfaz, asegurando que la aplicación sea visualmente atractiva y fácil de usar.
+CSS: Utilizado para dar estilo a la interfaz, haciéndola intuitiva y agradable a la vista.
 
-JavaScript: El corazón del proyecto, donde se implementó toda la lógica. El código JavaScript se encarga de:
+JavaScript: El corazón del proyecto, donde se implementó toda la lógica de las funciones descritas para manejar la entrada del usuario, la gestión del array y la lógica del sorteo.
 
-Gestionar el array de nombres.
-
-Validar y añadir nuevos nombres.
-
-Iterar sobre el array para actualizar la lista en la interfaz.
-
-Implementar la función de sorteo para elegir un nombre aleatorio del array.
-
-##💻 Cómo Usar
+💻 Cómo Usar
 Ingresa un nombre: Escribe el nombre de un participante en el campo de texto.
 
-Añade a la lista: Haz clic en el botón "Añadir" para agregar el nombre. Verás cómo la lista de participantes se actualiza en tiempo real.
+Añade a la lista: Haz clic en el botón "Añadir". El nombre aparecerá en la lista de participantes debajo.
 
-Realiza el sorteo: Una vez que todos los nombres estén en la lista, haz clic en el botón "Sortear amigo". El nombre del ganador se mostrará en pantalla.
+Realiza el sorteo: Una vez que hayas agregado a todos los participantes, haz clic en el botón "Sortear amigo". El nombre del ganador se mostrará en pantalla.
 
-###📬 Contacto
+📬 Contacto
 Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto.
 
-Autor: Richard Hewitt
+Autor: [Tu Nombre de Usuario de GitHub]
